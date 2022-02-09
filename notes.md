@@ -6,6 +6,9 @@ The testnet (Goerli-voyager) explorer can be found [here](https://goerli.voyager
 > export STARKNET_NETWORK=alpha-goerli
 > export STARKNET_WALLET=starkware.starknet.wallets.open_zeppelin.OpenZeppelinAccount
 
+### Start the virtual environment
+> source ~/cairo_venv/bin/activate
+
 #### To transact with the blockchain require to deploy EOA contract
 > starknet deploy_account
 
